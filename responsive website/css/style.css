@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: inherit; */
+}
+
+.pacito {
+    font-family: 'Permanent Marker',
+        cursive;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Roboto',
+        sans-serif;
+
+}
+
+/* team section start */
+.team-section h1 {
+    position: relative;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #2c2c2c;
+    width: 15rem;
+    margin: 0 auto;
+}
+
+/* .team-section h1::before {
+    content: '';
+    height: 7px;
+    width: 14rem;
+    background-color: aquamarine;
+    position: absolute;
+    top: 25px;
+    left: 40%;
+    display: block;
+} */
+
+.team-imgs {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-info h3 {
+    color: rgba(0, 0, 0, 0.7);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    width: 11.5rem;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.team-info p {
+    text-align: justify;
+}
+
+
+
+.swiper-container {
+    width: 300px;
+    height: 300px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+}
+
+.swiper-slide {
+    position: relative;
+}
+
+.swiper-slide h3 {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 5px 0;
+    color: white;
+    position: absolute;
+    bottom: -8px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+
+}
+
+.swiper-slide h3 span {
+    margin-top: 5px;
+    letter-spacing: 1px;
+    font-size: 1rem;
+}
+
+
+
+/* team section end */

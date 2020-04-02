@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- swiper js -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <section class="team-section">
+        <div class="container-fluid pt-5 mb-4">
+          <h1 class="team-title text-center mb-5 pacito">OUR TEAM</h1>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="team-info">
+                <h3 class="text-center mb-4">WHAT WE DO</h3>
+                <p class="">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Aliquid explicabo obcaecati inventore eaque voluptas sed saepe
+                  quis est, perspiciatis aliquam maxime veniam! Alias, libero
+                  quod! Non est, neque deleniti debitis perferendis, consectetur
+                  praesentium veritatis adipisci nemo facilis cum recusandae
+                  earum.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="team-imgs">
+                <div class="swiper-container">
+                  <div class="swiper-wrapper">
+                    <div
+                      class="swiper-slide"
+                      style="background-image:url(./img/team3.jpg)"
+                    >
+                      <h3>
+                        Anna Philips
+                        <span class="pacito">Web Consultant</span>
+                      </h3>
+                    </div>
+                    <div
+                      class="swiper-slide"
+                      style="background-image:url(./img/team4.jpg)"
+                    >
+                      <h3>
+                        David Curry
+                        <span class="pacito">Web Designer</span>
+                      </h3>
+                    </div>
+                    <div
+                      class="swiper-slide"
+                      style="background-image:url(./img/team5.jpg)"
+                    >
+                      <h3>
+                        Zubby Collins
+                        <span class="pacito">Marketer</span>
+                      </h3>
+                    </div>
+                    <div
+                      class="swiper-slide"
+                      style="background-image:url(./img/team6.jpg)"
+                    >
+                      <h3>
+                        Chidi Kunle
+                        <span class="pacito">Product Designer</span>
+                      </h3>
+                    </div>
+                    <div
+                      class="swiper-slide"
+                      style="background-image:url(./img/3.jpg)"
+                    >
+                      <h3>
+                        Ify Katherine
+                        <span class="pacito">Content Writer</span>
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- jquery file -->
+    <script src="./js/jquery.js"></script>
+    <!-- bootstrap javascript -->
+    <script src="./js/bootstrap.min.js"></script>
+    <!-- swiper.js -->
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".swiper-container", {
+        effect: "cube",
+        grabCursor: true,
+        autoplay: true,
+        cubeEffect: {
+          shadow: true,
+          slideShadows: true,
+          shadowOffset: 20,
+          shadowScale: 0.94
+        },
+        pagination: {
+          el: ".swiper-pagination"
+        }
+      });
+    </script>
+  </body>
+</html>
